@@ -126,7 +126,7 @@ p {
 .tm-content-box {
 	height: 100%;
 	min-height: 640px;
-	max-width: 480px;	
+	max-width: 500px;	
 	padding: 40px;	
 	display: -ms-flexbox;	
 	display: -webkit-flex;	
@@ -145,7 +145,6 @@ p {
 }
 
 .tm-page-content-width {
-	max-width: 1200px;
 	margin: 0 auto;
 	width: 100%;
 }
@@ -277,5 +276,13 @@ p {
 
 .finalLogo img {
   width: 60%;
+}
+
+.logo2 {
+  text-align: center;
+}
+
+.logo2 img {
+  width: 40%;
 }
 
