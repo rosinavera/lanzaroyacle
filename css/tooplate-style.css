@@ -172,10 +172,7 @@ p {
 }
 .tm-margin-b-0 { margin-bottom: 0; }
 
-.tm-section-testimonials { 
-	padding-top: 80px; 
-	padding-bottom: 80px;
-}
+
 
 .form-control {
 	background-color: rgba(0, 0, 0, 0.4);
@@ -263,10 +260,22 @@ p {
 }
 
 .logo {
-  text-align: center;
+  text-align: right;
+  margin-top: 400px;
+  margin-left: 400px;
 }
 
 .logo img {
-  width: 80%;
+  width: 60%;
+}
+
+.finalLogo {
+  text-align: right;
+  margin-top: 400px;
+  margin-left: 400px;
+}
+
+.finalLogo img {
+  width: 60%;
 }
 
