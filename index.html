@@ -15,17 +15,13 @@ Lanzaro y Acle
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
     <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
-    <link rel="stylesheet" href="css/tooplate-style.css">                                   <!-- Templatemo style -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
+    <link rel="stylesheet" href="css/tooplate-style.css">                                   <!-- Templatemo style -->  
+		  
 </head>
 
     <body>
+	<div class="se-pre-con"></div>
+
 
         <div class="container-fluid">
             <!-- Navigation -->        
@@ -95,18 +91,9 @@ Lanzaro y Acle
                         <h2 class="tm-section-title">Contacto</h2>
 						<p><i class="fa fa-phone icon-margin"></i> (+598)99 641 147 / (+598)98 120 155</p>
 						<p><i class="fa fa-envelope icon-margin"></i> lanzacle@adinet.com.uy</p>
-<<<<<<< HEAD
-<<<<<<< HEAD
 						<p><i class="fa fa-map-marker icon-margin-map"></i> Ing.C.M. Maggiolo 432/001, Montevideo</p>		
-=======
-						
-			    <p><i class="fa fa-map-marker icon-margin-map"></i> Ing.C.M. Maggiolo 432/001, Montevideo</p>
-			    
->>>>>>> 12d8b577c6fa992beedefecb7c8be104519a65f6
-=======
-						<p><i class="fa fa-map-marker icon-margin-map"></i> Ing.C.M. Maggiolo 432/001, Montevideo</p>		    
->>>>>>> e9e69d9e487b39152bdae0a4a77135bbefccf421
-                    </div>
+						<p><i class="logo2"><img src="img\logo.png"></i></p>
+					</div>
                 </div>
 
                 </div>                
@@ -119,8 +106,15 @@ Lanzaro y Acle
         <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) -->
         <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
         <script src="js/jquery.singlePageNav.min.js"></script>  <!-- Single page nav (https://github.com/ChrisWojcik/single-page-nav) -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
         
-        <script>     
+        <script>   
+
+			$(window).load(function() {
+		// Animate loader off screen
+			$(".se-pre-con").fadeOut("slow");;
+			});
             // Check scroll position and add/remove background to navbar
             function checkScrollPosition() {
                 
@@ -164,7 +158,8 @@ Lanzaro y Acle
                 $('#tmNavbar').collapse('hide');
             });
 
-        </script>             
+        </script> 
+
 
 </body>
 </html>
