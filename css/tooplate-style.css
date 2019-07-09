@@ -271,23 +271,19 @@ p {
 }
 
 
-.logo
-{
-
-position:absolute;
-text-align: center;
-bottom:100px;
-}
 
 .logo img {
-  width: 65%;
+  width: 30%;
+  position: absolute;
+  bottom: 20px;
+  right: 16px;
 }
 
 
 .logo2 {
-	bottom: 30px;	
+	bottom: 80px;	
 	position:absolute;
-	text-align: center;
+	text-align: left;
 }
 
 .logo2 img {
