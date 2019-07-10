@@ -5,7 +5,7 @@ http://www.tooplate.com/view/2084-zipper
 */
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 300;
 	overflow-x: hidden;
 }
@@ -63,14 +63,14 @@ button:focus { outline: none; }
 h1, h2, p {	color: white; }
 
 p { 
-	font-weight: 300;
+	font-weight: 280;
 	line-height: 1.8;
 	margin-bottom: 35px;
 }
 
 .tm-section-title {
 	color: #fdff73;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	margin-bottom: 40px;	
 }
 
@@ -138,7 +138,7 @@ p {
 .tm-content-box {
 	height: 100%;
 	min-height: 640px;
-	max-width: 500px;	
+	max-width: 362px;	
 	padding: 40px;	
 	display: -ms-flexbox;	
 	display: -webkit-flex;	
