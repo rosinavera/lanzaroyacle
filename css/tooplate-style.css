@@ -79,7 +79,8 @@ p {
 	color: #ffffff;
 	font-size: 1.6rem;
 	position: relative;
-	bottom: -45px;
+	bottom: -38px;
+	text-align: center;
 
 }
 
@@ -290,12 +291,11 @@ p {
 
 
 .logo2 {
-	bottom: 80px;	
 	position:absolute;
 	text-align: left;
 }
 
 .logo2 img {
-  width: 30%;
+  width: 3%;
 }
 
