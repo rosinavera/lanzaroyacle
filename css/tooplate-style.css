@@ -282,10 +282,12 @@ p {
 
 
 .logo img {
-  position:absolute;
+	position:absolute;
     right:10px;
     bottom: 10px;
-  width: 30%;	
+	width: 30%;
+	max-width: 100%;
+	
 }	
 	
 
