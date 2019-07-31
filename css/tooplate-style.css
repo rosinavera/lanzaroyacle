@@ -183,6 +183,7 @@ p {
             justify-content: center;
 }
 
+
 .tm-textbox-padding { padding: 50px; }
 .tm-text-black { color: black; }
 .tm-fa { 
@@ -280,18 +281,16 @@ p {
     margin: 0 18px 0 0;
 }
 
-
 .logo img {
-	position:absolute;
-    right:10px;
-    bottom: 10px;
 	width: 30%;
 	max-width: 100%;
+	float: right;
+	margin-top: 83vh;
+	padding: 10px;
+	margin-bottom:0px
 	
-}	
-	
-
 }
+
 
 
 .logo2 {
